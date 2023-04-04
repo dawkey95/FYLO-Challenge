@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- GENERAL ----------- */
+body {
+  @apply bg-main-background h-[100vh] font-raleway;
+}
+
+/* ---------- HEADER ----------- */
+.header-section {
+  @apply flex flex-row justify-between items-center mt-6 ml-5 mr-6 text-neutral-snow h-[1.5rem] text-[0.75rem] leading-[0.875rem] font-normal;
+}
+
+.header-logo {
+  @apply max-h-[100%];
+}
+
+.header-nav-list {
+  @apply flex flex-row gap-6 ml-[84px] items-center;
+}
+
+/* ---------- CTA ----------- */
