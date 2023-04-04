@@ -57,3 +57,24 @@ body {
 .card-details {
   @apply text-[0.875rem] leading-[1.3125rem] font-normal;
 }
+
+/* ---------- CONTENT SECTION ----------- */
+.content-section {
+  @apply flex flex-col items-start text-left mx-7;
+}
+
+.content-text {
+  @apply text-neutral-snow mb-4;
+}
+
+.content-title {
+  @apply text-[1.125rem] leading-[1.5rem] font-bold mt-12 mb-4;
+}
+
+.content-p {
+  @apply text-[0.875rem] leading-[21px] font-normal;
+}
+
+.content-btn {
+  @apply text-accent-cyan;
+}
