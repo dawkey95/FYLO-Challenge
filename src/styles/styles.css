@@ -40,3 +40,20 @@ body {
 .btn-text {
   @apply text-[0.875rem] font-bold;
 }
+
+/* ---------- CARD SECTION ----------- */
+.card-section {
+  @apply mb-[160px];
+}
+
+.card-body {
+  @apply flex flex-col items-center text-center text-neutral-snow mx-7 mb-20;
+}
+
+.card-title {
+  @apply text-[1.125rem] leading-[1.5rem] font-bold mb-2 mt-6;
+}
+
+.card-details {
+  @apply text-[0.875rem] leading-[1.3125rem] font-normal;
+}
