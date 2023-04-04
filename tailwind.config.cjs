@@ -19,6 +19,11 @@ module.exports = {
           snow: "hsl(0, 0%, 100%)",
         },
       },
+
+      gradientColorStops: {
+        gradient1: ["#63E1D9 -42.11%", "#34A0CD 100%"],
+      },
+
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
       },
