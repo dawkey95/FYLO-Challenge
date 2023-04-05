@@ -115,3 +115,24 @@ body {
 .review-card-title {
   @apply text-[0.4375rem] leading-[0.625rem] font-normal;
 }
+
+/* ---------- REVIEW SECTION ----------- */
+.signup-section {
+  @apply flex flex-col bg-main-intro-email items-center rounded-[0.5625rem] text-center text-neutral-snow mx-5 px-7 py-10;
+}
+
+.signup-title {
+  @apply text-[1.125rem] leading-[1.5rem] font-bold m-4;
+}
+
+.signup-details {
+  @apply text-[0.875rem] leading-[1.3125rem] font-normal mb-8;
+}
+
+.signup-input {
+  @apply w-full rounded-3xl mb-6 py-3 text-[0.625rem] font-normal pl-[1.875rem];
+}
+
+.signup-btn {
+  @apply w-full rounded-3xl bg-gradient-to-br from-gradient1-0 to-gradient1-1 py-4 text-[0.875rem] font-bold;
+}
