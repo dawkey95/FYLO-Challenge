@@ -60,7 +60,7 @@ body {
 
 /* ---------- CONTENT SECTION ----------- */
 .content-section {
-  @apply flex flex-col items-start text-left mx-7 mb-[10rem];
+  @apply flex flex-col items-center text-left mx-7 mb-[10rem];
 }
 
 .content-text {
@@ -75,8 +75,12 @@ body {
   @apply text-[0.875rem] leading-[1.3125rem] font-normal;
 }
 
+.btn-container {
+  @apply w-full flex flex-row items-start;
+}
+
 .content-btn {
-  @apply flex flex-row items-center gap-2 pb-2 text-[0.75rem] font-normal leading-[1rem] text-accent-cyan border-b-2 border-accent-cyan;
+  @apply flex flex-row gap-2 pb-2 text-[0.75rem] font-normal leading-[1rem] text-accent-cyan border-b-2 border-accent-cyan;
 }
 
 /* ---------- REVIEW SECTION ----------- */
@@ -84,12 +88,16 @@ body {
   @apply flex flex-col gap-6 items-center text-left text-neutral-snow mx-12;
 }
 
+/* .quote-container {
+  @apply w-full flex flex-row items-start justify-center;
+} */
+
 .reviews {
   @apply relative mb-[10rem];
 }
 
 .quote-mark {
-  @apply absolute z-50 top-[-0.5625rem] text-accent-cyan text-[5rem] leading-[3.125rem] font-normal font-nunito ml-12;
+  @apply absolute -z-10 top-[0.125rem] left-[15%] w-[2rem];
 }
 
 .review-card {

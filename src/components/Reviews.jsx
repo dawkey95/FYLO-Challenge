@@ -4,7 +4,6 @@ const Reviews = () => {
   return (
     <>
       <section className="reviews">
-        <p className="quote-mark">“</p>
         <ReviewCard />
       </section>
     </>

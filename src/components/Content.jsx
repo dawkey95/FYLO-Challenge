@@ -19,11 +19,13 @@ const Content = () => {
           </p>
           <br />
           <p className="content-p"></p>
+          <div className="btn-container">
+            <button className="content-btn">
+              <a href="#">See how Fylo works</a>
+              <img src="/images/icon-arrow.svg" alt="arrow point right" />
+            </button>
+          </div>
         </div>
-        <button className="content-btn">
-          <a href="#">See how Fylo works</a>
-          <img src="/images/icon-arrow.svg" alt="arrow point right" />
-        </button>
       </section>
     </>
   );

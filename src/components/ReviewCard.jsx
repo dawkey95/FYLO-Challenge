@@ -4,6 +4,9 @@ const ReviewCard = () => {
   return (
     <>
       <div className="review-section">
+        <div className="quote-container">
+          <img className="quote-mark" src="/images/bg-quotes.png" alt="" />
+        </div>
         {reviewData.map((review) => {
           const { id, details, avatar, name, title } = review;
           return (
@@ -17,7 +20,7 @@ const ReviewCard = () => {
                 </div>
               </div>
             </div>
-          )
+          );
         })}
       </div>
     </>
