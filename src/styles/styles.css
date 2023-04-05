@@ -118,7 +118,7 @@ body {
 
 /* ---------- REVIEW SECTION ----------- */
 .signup-section {
-  @apply flex flex-col bg-main-intro-email items-center rounded-[0.5625rem] text-center text-neutral-snow mx-5 px-7 py-10;
+  @apply flex flex-col bg-main-intro-email items-center rounded-[0.5625rem] text-center text-neutral-snow mx-5 mb-20 px-7 py-10;
 }
 
 .signup-title {
@@ -135,4 +135,46 @@ body {
 
 .signup-btn {
   @apply w-full rounded-3xl bg-gradient-to-br from-gradient1-0 to-gradient1-1 py-4 text-[0.875rem] font-bold;
+}
+
+/* ---------- REVIEW SECTION ----------- */
+.footer {
+  @apply text-neutral-snow;
+}
+
+.footer-logo {
+  @apply max-h-[100%] ml-10 h-[1.9375rem] mb-[2.1875rem];
+}
+
+.footer-contact-details {
+  @apply flex flex-col gap-4 mx-7 mb-[3.5rem];
+}
+
+.footer-contact-address {
+  @apply flex flex-row items-start gap-4 text-[1rem] font-normal;
+}
+
+.address-icon {
+  @apply pt-[0.375rem];
+}
+
+.footer-contact-phone,
+.footer-contact-email {
+  @apply flex flex-row items-start gap-4 text-[1rem] font-normal;
+}
+
+.group1 {
+  @apply flex flex-col gap-4 ml-6 mb-[3rem] text-[1rem] font-normal;
+}
+
+.group2 {
+  @apply flex flex-col gap-3 ml-6 mb-[3.5rem] text-[1rem] font-normal;
+}
+
+.social-icons {
+  @apply flex flex-row items-center justify-center mx-[8.5rem] gap-4 pb-[3.375rem];
+}
+
+.circle-radius {
+  @apply rounded-full border-[0.0625rem] border-neutral-snow relative flex items-center justify-center h-[30px] w-[30px];
 }
