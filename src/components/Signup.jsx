@@ -9,7 +9,7 @@ const Signup = () => {
             extremely generous. If you have any questions, our support team
             would be happy to help you.
           </p>
-          <div>
+          <div className="btn-group">
             <input className="signup-input" type="text" placeholder="email@example.com" />
             <button className="signup-btn">Get Started For Free</button>
           </div>
