@@ -17,7 +17,7 @@ body {
 }
 
 .header-nav-list {
-  @apply flex flex-row gap-6 ml-[84px] items-center;
+  @apply flex flex-row gap-6 ml-[5.25rem] items-center;
 }
 
 /* ---------- CTA ----------- */
@@ -34,7 +34,7 @@ body {
 }
 
 .cta-btn-section {
-  @apply flex flex-row justify-center bg-gradient-to-br from-gradient1-0 to-gradient1-1 rounded-[24px] mx-9 mt-8 mb-[7.5rem] px-16 py-3;
+  @apply flex flex-row justify-center bg-gradient-to-br from-gradient1-0 to-gradient1-1 rounded-[1.5rem] mx-9 mt-8 mb-[7.5rem] px-16 py-3;
 }
 
 .btn-text {
@@ -43,7 +43,7 @@ body {
 
 /* ---------- CARD SECTION ----------- */
 .card-section {
-  @apply mb-[160px];
+  @apply mb-[10rem];
 }
 
 .card-body {
@@ -60,7 +60,7 @@ body {
 
 /* ---------- CONTENT SECTION ----------- */
 .content-section {
-  @apply flex flex-col items-start text-left mx-7;
+  @apply flex flex-col items-start text-left mx-7 mb-[10rem];
 }
 
 .content-text {
@@ -72,7 +72,7 @@ body {
 }
 
 .content-p {
-  @apply text-[0.875rem] leading-[21px] font-normal;
+  @apply text-[0.875rem] leading-[1.3125rem] font-normal;
 }
 
 .content-btn {
