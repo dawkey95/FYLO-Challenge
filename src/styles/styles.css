@@ -128,12 +128,16 @@ body {
   lg:mx-[18.0625rem] bottom-[-100px] lg:bottom-[-180px];
 }
 
+.signup-text {
+  @apply lg:mx-[5.9375rem]
+}
+
 .signup-title {
-  @apply text-[1.125rem] leading-[1.5rem] font-bold m-4;
+  @apply text-[1.125rem] leading-[1.5rem] font-bold m-4 lg:text-[2rem];
 }
 
 .signup-details {
-  @apply text-[0.875rem] leading-[1.3125rem] font-normal mb-8;
+  @apply text-[0.875rem] leading-[1.3125rem] font-normal mb-8 lg:text-[0.875rem];
 }
 
 .btn-group {
