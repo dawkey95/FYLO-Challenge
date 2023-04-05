@@ -76,5 +76,5 @@ body {
 }
 
 .content-btn {
-  @apply text-accent-cyan;
+  @apply flex flex-row items-center gap-2 pb-2 text-[0.75rem] font-normal leading-[1rem] text-accent-cyan border-b-2 border-accent-cyan;
 }
