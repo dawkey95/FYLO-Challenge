@@ -26,6 +26,7 @@ module.exports = {
 
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
+        nunito: ["Nunito\\ Sans", "sans-serif"],
       },
     },
     plugins: [],

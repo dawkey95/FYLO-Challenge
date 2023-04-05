@@ -1,12 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import "@fontsource/raleway";
+import "@fontsource/nunito-sans";
 import "../styles/styles.css";
 
 import Header from "../components/Header";
 import CTA from "../components/CTA";
 import Card from "../components/Card";
 import Content from "../components/Content";
+import Reviews from "../components/Reviews";
 ---
 
 <Layout title="FYLO Challenge">
@@ -14,6 +16,7 @@ import Content from "../components/Content";
     <Header />
     <CTA />
     <Card />
-		<Content />
+    <Content />
+    <Reviews />
   </main>
 </Layout>

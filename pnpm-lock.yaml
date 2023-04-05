@@ -7,6 +7,9 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^3.1.1
     version: 3.1.1(astro@2.1.9)(tailwindcss@3.3.1)
+  '@fontsource/nunito-sans':
+    specifier: ^4.5.10
+    version: 4.5.10
   '@fontsource/raleway':
     specifier: ^4.5.12
     version: 4.5.12
@@ -603,6 +606,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource/nunito-sans@4.5.10:
+    resolution: {integrity: sha512-GVKc3mEfnk3fLEuiQXNYhlP/Z9SrCgD831xZJ7J+6OgFzEf6LNnyHPiqWfjW671sAmOBQTLgm/21z78K/beWEw==}
+    dev: false
 
   /@fontsource/raleway@4.5.12:
     resolution: {integrity: sha512-uKs13d6NFWU4vf5LSDHK/cbaAw+UXkzz03fKjyvkKq8Nop+CeB6o8STEDkZD9/uOo3v3sgm59Wyw8uGWvxoCiA==}
