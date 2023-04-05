@@ -146,8 +146,8 @@ body {
 }
 
 .signup-btn {
-  @apply w-1/2 rounded-3xl mb-5 py-3 bg-gradient-to-br from-gradient1-0 to-gradient1-1 text-[0.875rem] font-bold 
-  lg:mr-[4.8125rem];
+  @apply w-full rounded-3xl mb-5 py-3 bg-gradient-to-br from-gradient1-0 to-gradient1-1 text-[0.875rem] font-bold 
+  lg:mr-[4.8125rem] lg:w-1/2;
 }
 
 /* ---------- FOOTER SECTION ----------- */
