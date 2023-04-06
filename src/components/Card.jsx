@@ -10,7 +10,6 @@ const Card = () => {
               <img className="card-image" src={imgURL} />
               <h3 className="card-title">{title}</h3>
               <p className="card-details">{details}</p>
-              <button className="card-btn">Get Started</button>
             </div>
           );
         })}

@@ -2,7 +2,7 @@ const CTA = () => {
   return (
     <>
       <section className="cta-section">
-        <img src="/images/illustration-intro.png" alt="" />
+        <img className="cta-img" src="/images/illustration-intro.png" alt="" />
         <h1 className="cta-header">
           All your files in one secure location, accessible anywhere.
         </h1>
@@ -13,9 +13,11 @@ const CTA = () => {
         </p>
         <div className="cta-btn-section">
           <button className="cta-btn">
-            <a className="btn-text" href="#">Get Started</a>
+            <a className="btn-text" href="#">
+              Get Started
+            </a>
           </button>
-        </div >
+        </div>
       </section>
     </>
   );
