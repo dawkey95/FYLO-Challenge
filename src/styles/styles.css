@@ -33,12 +33,12 @@ body {
 }
 
 .cta-header {
-  @apply text-[1.5rem] leading-[2.25rem] font-bold mt-8 mb-4 
+  @apply text-[1.5rem] font-bold mt-8 mb-4 
   lg:text-[2.5rem] lg:mb-8;
 }
 
 .cta-details {
-  @apply text-[0.875rem] leading-[1.3125rem] font-normal
+  @apply text-[0.875rem] font-normal
   lg:text-[1.25rem] lg:mb-8;
 }
 
@@ -66,17 +66,17 @@ body {
 }
 
 .card-title {
-  @apply text-[1.125rem] leading-[1.5rem] font-bold mb-2 mt-6 lg:mx-0 lg:mt-0 lg:mb-2;
+  @apply text-[1.125rem] font-bold mb-2 mt-6 lg:mx-0 lg:mt-0 lg:mb-2;
 }
 
 .card-details {
-  @apply text-[0.875rem] leading-[1.3125rem] font-normal;
+  @apply text-[0.875rem] font-normal;
 }
 
 /* ---------- CONTENT SECTION ----------- */
 .content-section {
   @apply flex flex-col items-center text-left mx-7 mb-[10rem]
-  lg:grid lg:grid-cols-2 lg:mx-[7.5rem] lg:gap-x-[3.75rem];
+  lg:grid lg:grid-cols-2 lg:mx-[7.5rem] lg:gap-x-[60px];
 }
 
 .content-text {
@@ -89,7 +89,7 @@ body {
 }
 
 .content-p {
-  @apply text-[0.875rem] leading-[1.3125rem] font-normal lg:text-[1rem];
+  @apply text-[0.875rem] font-normal lg:text-[1rem];
 }
 
 .btn-container {
@@ -97,20 +97,17 @@ body {
 }
 
 .content-btn {
-  @apply flex flex-row gap-2 pb-2 text-[0.75rem] font-normal leading-[1rem] text-accent-cyan border-b-2 border-accent-cyan;
+  @apply flex flex-row gap-2 pb-2 text-[0.75rem] font-normal leading-[1rem] text-accent-cyan border-b-2 border-accent-cyan hover:text-neutral-snow hover:border-neutral-snow;
 }
 
 /* ---------- REVIEW SECTION ----------- */
 .review-section {
-  @apply flex flex-col gap-6 items-center text-left text-neutral-snow mx-12;
-}
-
-.reviews {
-  @apply relative;
+  @apply relative flex flex-col gap-6 items-center text-left text-neutral-snow mx-12
+  lg:flex-row lg:gap-x-10;
 }
 
 .quote-mark {
-  @apply absolute -z-10 top-[0.125rem] left-[15%] w-[2rem];
+  @apply absolute -z-10 top-[0.125rem] left-0 w-[2rem] lg:left-10 lg:-top-5;
 }
 
 .review-card {
@@ -118,7 +115,8 @@ body {
 }
 
 .review-details {
-  @apply text-[0.625rem] leading-[1.125rem] font-normal mb-4;
+  @apply text-[0.625rem] font-normal mb-4
+  lg:text-[0.875rem];
 }
 
 .review-card-footer {
@@ -130,11 +128,11 @@ body {
 }
 
 .review-card-name {
-  @apply text-[0.625rem] leading-[0.75rem] font-bold mb-1;
+  @apply text-[0.75rem] font-bold mb-1;
 }
 
 .review-card-title {
-  @apply text-[0.4375rem] leading-[0.625rem] font-normal;
+  @apply text-[0.625rem] font-normal;
 }
 
 /* ---------- SIGNUP SECTION ----------- */
@@ -148,11 +146,11 @@ body {
 }
 
 .signup-title {
-  @apply text-[1.125rem] leading-[1.5rem] font-bold m-4 lg:text-[2rem];
+  @apply text-[1.125rem] font-bold m-4 lg:text-[2rem];
 }
 
 .signup-details {
-  @apply text-[0.875rem] leading-[1.3125rem] font-normal mb-8 lg:text-[0.875rem];
+  @apply text-[0.875rem] font-normal mb-8 lg:text-[0.875rem];
 }
 
 .btn-group {
