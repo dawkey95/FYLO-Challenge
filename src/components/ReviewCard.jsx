@@ -15,7 +15,7 @@ const ReviewCard = () => {
               <div className="review-card-footer">
                 <img className="review-avatar" src={avatar} alt="avatar" />
                 <div className="review-card-footer-details">
-                  <h4 className="review-card-name">{name}</h4>
+                  <p className="review-card-name">{name}</p>
                   <p className="review-card-title">{title}</p>
                 </div>
               </div>
