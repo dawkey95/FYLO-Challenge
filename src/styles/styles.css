@@ -49,8 +49,12 @@ body {
 }
 
 .cta-btn-section {
-  @apply flex flex-row justify-center bg-gradient-to-br from-gradient1-0 to-gradient1-1 rounded-full mx-9 mt-8 mb-[7.5rem] px-16 py-3
+  @apply flex flex-row justify-center mx-9 mt-8 mb-[7.5rem] 
   lg:w-1/3 lg:mb-[9.875rem];
+}
+
+.cta-btn {
+  @apply px-16 py-3 rounded-full bg-gradient-to-br from-gradient1-0 to-gradient1-1 hover:bg-[#8ADAE3]
 }
 
 .btn-text {
@@ -164,7 +168,7 @@ body {
 }
 
 .signup-input {
-  @apply w-full rounded-full mb-6 py-3 text-[0.625rem] font-normal pl-[1.875rem] 
+  @apply w-full text-black rounded-full mb-6 py-3 text-[0.625rem] font-normal pl-[1.875rem] 
   lg:ml-[4.8125rem] lg:mr-[1.8125rem] lg:mb-5 lg:text-[0.75rem];
 }
 
