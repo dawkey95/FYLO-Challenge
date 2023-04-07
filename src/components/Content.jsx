@@ -22,7 +22,7 @@ const Content = () => {
           <div className="btn-container">
             <button className="content-btn">
               <a href="#">See how Fylo works</a>
-              <img src="/images/icon-arrow.svg" alt="arrow point right" />
+              <i class="fa-solid fa-circle-arrow-right"></i>
             </button>
           </div>
         </div>

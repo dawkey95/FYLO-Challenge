@@ -7,6 +7,10 @@ body {
   @apply relative bg-main-background h-[100vh] font-raleway;
 }
 
+main {
+  @apply -z-50;
+}
+
 /* ---------- HEADER ----------- */
 .header-section {
   @apply flex flex-row justify-between items-center mt-6 mx-5 h-[1.5rem]
@@ -54,7 +58,7 @@ body {
 }
 
 .cta-btn {
-  @apply px-16 py-3 rounded-full bg-gradient-to-br from-gradient1-0 to-gradient1-1 hover:bg-[#8ADAE3]
+  @apply px-16 py-3 rounded-full bg-gradient-to-br from-gradient1-0 to-gradient1-1 hover:from-[#8ADAE3] hover:to-[#8ADAE3];
 }
 
 .btn-text {
@@ -107,7 +111,7 @@ body {
 }
 
 .content-btn {
-  @apply flex flex-row gap-2 pb-2 text-[0.75rem] font-normal leading-[1rem] text-accent-cyan border-b-2 border-accent-cyan hover:text-neutral-snow hover:border-neutral-snow;
+  @apply flex flex-row items-center gap-2 pb-2 text-[0.75rem] font-normal leading-[1rem] text-accent-cyan border-b-2 border-accent-cyan hover:text-neutral-snow hover:border-neutral-snow;
 }
 
 /* ---------- REVIEW SECTION ----------- */
@@ -117,7 +121,7 @@ body {
 }
 
 .quote-mark {
-  @apply absolute -z-10 top-[0.125rem] left-0 w-[2rem] lg:left-10 lg:-top-5;
+  @apply absolute -z-10 top-[0.125rem] left-0 w-[2rem] lg:left-10 lg:-top-6;
 }
 
 .review-card {
@@ -147,7 +151,7 @@ body {
 
 /* ---------- SIGNUP SECTION ----------- */
 .signup-section {
-  @apply relative flex flex-col bg-main-intro-email items-center rounded-[0.5625rem] text-center text-neutral-snow mx-5 mb-20 px-7 py-10
+  @apply z-10 relative flex flex-col bg-main-intro-email items-center rounded-[0.5625rem] text-center text-neutral-snow mx-5 mb-20 px-7 py-10
   lg:mx-[18.0625rem] bottom-[-100px] lg:bottom-[-180px];
 }
 
@@ -174,12 +178,12 @@ body {
 
 .signup-btn {
   @apply w-full rounded-full mb-5 py-3 bg-gradient-to-br from-gradient1-0 to-gradient1-1 text-[0.875rem] font-bold 
-  lg:mr-[4.8125rem] lg:w-1/2;
+  lg:mr-[4.8125rem] lg:w-1/2 hover:from-[#8ADAE3] hover:to-[#8ADAE3];
 }
 
 /* ---------- FOOTER SECTION ----------- */
 .footer {
-  @apply -z-30 bg-main-footer relative text-neutral-snow lg:pl-[7.5rem] pt-[10.625rem];
+  @apply bg-main-footer relative text-neutral-snow lg:pl-[7.5rem] pt-[10.625rem];
 }
 
 .footer-container {
@@ -220,5 +224,17 @@ body {
 }
 
 .circle-radius {
-  @apply rounded-full border-[0.0625rem] border-neutral-snow relative flex items-center justify-center h-[30px] w-[30px];
+  @apply rounded-full border-[0.0625rem] border-neutral-snow relative flex items-center justify-center h-[30px] w-[30px] hover:border-accent-cyan;
+}
+
+.circle-radius:hover .fa-twitter {
+  color: #62e0d9;
+}
+
+.circle-radius:hover .fa-instagram {
+  color: #62e0d9;
+}
+
+.circle-radius:hover .fa-facebook-f {
+  color: #62e0d9;
 }
