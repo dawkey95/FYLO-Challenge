@@ -4,7 +4,7 @@ const Content = () => {
       <section className="content-section">
         <img
           src="/images/illustration-stay-productive.png"
-          alt=""
+          alt="people with speech bubbles"
           className="content-img"
         />
         <div className="content-text">
@@ -20,10 +20,10 @@ const Content = () => {
           <br />
           <p className="content-p"></p>
           <div className="btn-container">
-            <button className="content-btn">
-              <a href="#">See how Fylo works</a>
+            <div className="content-btn">
+              <button href="#">See how Fylo works</button>
               <i class="fa-solid fa-circle-arrow-right"></i>
-            </button>
+            </div>
           </div>
         </div>
       </section>

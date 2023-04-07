@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <section className="footer">
+      <section className="footer-section">
         <img className="footer-logo" src="/images/logo.svg" alt="" />
         <div className="footer-container">
           <div className="footer-contact-details">

@@ -1,8 +1,8 @@
 const Header = () => {
   return (
     <>
-      <section className="header-section">
-        <img src="/images/logo.svg" alt="" className="header-logo" />
+      <header className="header-section">
+        <img src="/images/logo.svg" alt="logo" className="header-logo" />
         <nav className="header-nav">
           <ul className="header-nav-list">
             <li className="header-nav-list-item">
@@ -22,9 +22,9 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-      </section>
+      </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
