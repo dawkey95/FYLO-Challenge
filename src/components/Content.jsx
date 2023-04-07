@@ -21,7 +21,7 @@ const Content = () => {
           <p className="content-p"></p>
           <div className="btn-container">
             <div className="content-btn">
-              <button href="#">See how Fylo works</button>
+              <button>See how Fylo works</button>
               <i class="fa-solid fa-circle-arrow-right"></i>
             </div>
           </div>
