@@ -3,9 +3,9 @@ import ReviewCard from "./ReviewCard";
 const Reviews = () => {
   return (
     <>
-      <section className="reviews">
+      <div className="reviews">
         <ReviewCard />
-      </section>
+      </div>
     </>
   );
 };

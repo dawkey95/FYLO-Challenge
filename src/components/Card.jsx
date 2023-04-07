@@ -3,7 +3,7 @@ import data from "../data/data";
 const Card = () => {
   return (
     <>
-      <section className="card-section">
+      <div className="card-section">
         {data.map(({ id, title, details, imgURL, alt }) => {
           return (
             <div className="card-body" key={id}>
@@ -13,7 +13,7 @@ const Card = () => {
             </div>
           );
         })}
-      </section>
+      </div>
     </>
   );
 };
